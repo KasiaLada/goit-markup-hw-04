@@ -46,7 +46,7 @@ body {
   gap: 20px;
   align-items: center;
 }
-.links .link:hover  {
+.links .link:hover {
   color: #2196f3;
 }
 .links .link:focus {
@@ -54,7 +54,6 @@ body {
 }
 .contact .link:hover {
   color: #2196f3;
-  
 }
 .contact .link:focus {
   color: #2196f3;
@@ -65,9 +64,10 @@ body {
 }
 .contact-link-icon:hover,
 .contact-link-icon:focus {
-    fill: #2196F3;
-    cursor:pointer;
-}
+  fill: #2196f3;
+  cursor: pointer; 
+ } 
+
 
 /*----------main---------*/
 .section {
@@ -114,7 +114,7 @@ body {
   margin-top: 40px;
 }
 
-.buttons .click:hover  {
+.buttons .click:hover {
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
@@ -124,12 +124,12 @@ body {
 }
 .click:hover {
   cursor: pointer;
-  }
+}
 .click:focus {
   color: #ffffff;
-  background-color: #2196f3;  /*dlaczego nie działa focus a hover działa ?*/
-    }
-.buttons .click:focus     {
+  background-color: #2196f3; /*dlaczego nie działa focus a hover działa ?*/
+}
+.buttons .click:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12); /*dlaczego nie działa focus a hover działa?*/
 }
@@ -169,14 +169,13 @@ body {
 
 .card-set .icon-group {
   width: 270px;
-height: 120px;
-  background-color:#F5F4FA;
+  height: 120px;
+  background-color: #f5f4fa;
   border-radius: 4px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-
 }
 .images-list {
   display: flex;
@@ -329,10 +328,11 @@ img {
   color: #212121;
   margin-bottom: 50px;
 }
+/*----------------our-team------------*/
 .our-team {
   background-color: #f5f4fa;
-  width:1600px;
-height:708px;
+  width: 1600px;
+  height: 708px;
 }
 .our-team .our-team-inscription {
   font-style: normal;
@@ -366,13 +366,59 @@ height:708px;
   color: #757575;
   margin-bottom: 30px;
 }
+.socialmedia-icons {
+width: 44px;
+height: 44px;
+border-radius: 50px;
+
+}
+/*------------------our clients-------------*/
+.client-header .client-header-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+ .clients {
+ 
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+  
+}
+.client-list {
+display:flex;
+align-items:center;
+justify-content: center;
+gap:30px;
+}
+
+.clients:hover {
+  fill: #2196f3;
+  cursor: pointer;
+  border-color: #2196f3;
+}
+.clients:focus {
+  fill: #2196f3;
+}
+/*---------footer--------*/
 .footer {
   background-color: #2f303a;
+  
 }
 .footer .logo .studio {
   color: #ffffff;
 }
-
+/* .container .footer-list .footer-socialmedia {
+  display: flex;
+} */
 .address {
   font-style: normal;
   font-weight: 400;
@@ -410,4 +456,26 @@ height:708px;
 }
 .tel:focus {
   color: #2196f3;
+}
+
+/*-----------footer-socialmedia-----------------*/
+ 
+.footer-socialmedia-list {
+  display: inline-flex;
+}
+
+.footer-socialmedia {
+    padding-left: 70px;
+}
+.footer-socialmedia {
+    padding-left: 70px;
+}
+.footer-socialmedia-header {
+  font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:#FFFFFF;
 }
