@@ -62,7 +62,7 @@ body {
   fill: #757575;
   margin-right: -10px;
 }
-.contact-link-icon:hover,
+.contact-link-icon:hover ,
 .contact-link-icon:focus {
   fill: #2196f3;
   cursor: pointer;
@@ -188,10 +188,8 @@ body {
 }
 .projects {
   display: flex;
-  /*row-*/
   gap: 30px;
   flex-wrap: wrap;
-  /*justify-content: space-between;*/
 }
 .projects-item {
   flex-basis: calc((100% - 60px) / 3);
@@ -263,8 +261,8 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
-  padding-top: 28px;
-  padding-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .studio {
   color: #000000;
@@ -367,7 +365,7 @@ img {
 .socialmedia-our-team {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;;
+  margin-bottom: 30px;
 }
 .socialmedia-our-team-list {
   display: flex;
