@@ -79,7 +79,9 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+.main-padding{
+  padding-bottom:94px;
+}
 .main-block {
   flex-direction: column;
   padding-top: 280px;
@@ -213,9 +215,13 @@ body {
   margin: 0 24px 4px 24px;
   padding-top: 24px;
 }
+img .team-member-area{
+  display: block;
+  height: auto;
+}
 img {
   display: block;
-
+width:100%;
   height: auto;
 }
 .figcaption {
@@ -339,10 +345,10 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-top: 100px;
+  padding-top: 94px;
   margin-bottom: 50px;
 }
-.our-team .our-team-padding {
+.our-team-padding {
   padding-top: 0;
 }
 .our-team-list {
@@ -356,6 +362,7 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  flex: 1;
 }
 .team-member-profession {
   font-weight: 400;
@@ -479,7 +486,10 @@ img {
 }
 
 /*-----------footer-socialmedia-----------------*/
-
+.footer-list .logo {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
 .footer-socialmedia-list {
   display: flex;
   gap: 10px;
