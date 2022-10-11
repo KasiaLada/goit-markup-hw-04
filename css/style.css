@@ -348,6 +348,9 @@ width:100%;
   padding-top: 94px;
   margin-bottom: 50px;
 }
+.padding-none {
+  padding-top: 0;
+}
 .our-team-padding {
   padding-top: 0;
 }
