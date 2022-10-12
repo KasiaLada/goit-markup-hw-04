@@ -67,10 +67,16 @@ body {
   fill: #2196f3;
   cursor: pointer;
 }
-.contact-wrapper:hover .contact-link-icon {
+.contact-wrapper:hover .contact-link-icon: {
   fill: #2196f3;
 }
 .contact-wrapper:hover .contact .link {
+  color: #2196f3;
+}
+.contact-wrapper:hover .contact .link: {
+  color: #2196f3;
+}
+.contact-wrapper:hover .contact .contact-link-icon: {
   color: #2196f3;
 }
 /*----------main---------*/
@@ -79,8 +85,8 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.main-padding{
-  padding-bottom:94px;
+.main-padding {
+  padding-bottom: 94px;
 }
 .main-block {
   flex-direction: column;
@@ -215,13 +221,13 @@ body {
   margin: 0 24px 4px 24px;
   padding-top: 24px;
 }
-img .team-member-area{
+img .team-member-area {
   display: block;
   height: auto;
 }
 img {
   display: block;
-width:100%;
+  width: 100%;
   height: auto;
 }
 .figcaption {
@@ -349,7 +355,7 @@ width:100%;
   margin-bottom: 50px;
 }
 .padding-none {
-  padding-top: 0;
+  padding: 0;
 }
 .our-team-padding {
   padding-top: 0;
@@ -527,4 +533,7 @@ width:100%;
 .footer-socialmedia-list .footer-icon-group:hover {
   background-color: #2196f3;
   cursor: pointer;
+}
+.footer-socialmedia-list .footer-icon-group:focus {
+  background-color: #2196f3;
 }
