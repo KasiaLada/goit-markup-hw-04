@@ -56,8 +56,8 @@ body {
   color: #2196f3;
 }
 .contact .link:focus {
-  color: #2196f3;
-}
+  color: #2196f3; */
+ } 
 .contact-link-icon {
   fill: #757575;
   margin-right: 7px;
@@ -73,11 +73,11 @@ body {
 .contact-wrapper:hover .contact .link {
   color: #2196f3;
 }
-.contact-wrapper:hover .contact .link {
-  color: #2196f3;
-}
 .contact-wrapper:hover .contact .contact-link-icon {
-  color: #2196f3;
+  fill: #2196f3;
+}
+.contact:hover .contact-wrapper:hover .contact-link-icon:hover {
+  fill: #2196f3;
 }
 
 /*----------main---------*/
@@ -535,6 +535,7 @@ img {
   background-color: #2196f3;
   cursor: pointer;
 }
-.footer-socialmedia-list .footer-icon-group:focus {
+.footer-socialmedia-list:focus .footer-icon-group:focus {
   background-color: #2196f3;
+  fill: #2196f3;
 }
