@@ -64,6 +64,9 @@ body {
 }
 .link:hover svg {
   fill: #2196f3;}
+
+  .link:focus svg {
+  fill: #2196f3;}
 /*----------main---------*/
 .section {
   width: 100%;
@@ -519,7 +522,7 @@ img {
   background-color: #2196f3;
   cursor: pointer;
 }
-.footer-socialmedia-list:focus .footer-icon-group:focus {
+ .footer-icon-group:focus {
   background-color: #2196f3;
   fill: #2196f3;
 }
