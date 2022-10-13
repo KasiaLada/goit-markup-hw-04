@@ -382,6 +382,9 @@ img {
 .socialmedia-our-team-icon {
   fill: #afb1b8;
 }
+.socialmedia-our-team-icon:focus {
+  background-color: #2196f3;
+}
 .socialmedia-our-team-list .socialmedia-our-team-icon {
   width: 44px;
   height: 44px;
@@ -428,8 +431,8 @@ img {
   cursor: pointer;
   border-color: #2196f3;
 }
-.clients:focus {
-  fill: #2196f3;
+.client-list .client-list-item:focus svg {
+ fill: #2196f3; /*nie działa*/
 }
 /*---------footer--------*/
 .footer {
@@ -522,7 +525,6 @@ img {
   background-color: #2196f3;
   cursor: pointer;
 }
- .footer-icon-group:focus {
+ .footer-icon-group:focus{
   background-color: #2196f3;
-  fill: #2196f3;
 }
