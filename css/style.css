@@ -56,30 +56,14 @@ body {
   color: #2196f3;
 }
 .contact .link:focus {
-  color: #2196f3; */
+  color: #2196f3; 
  } 
 .contact-link-icon {
   fill: #757575;
   margin-right: 7px;
 }
-.contact-link-icon:hover,
-.contact-link-icon:focus {
-  fill: #2196f3;
-  cursor: pointer;
-}
-.contact-wrapper:hover .contact-link-icon {
-  fill: #2196f3;
-}
-.contact-wrapper:hover .contact .link {
-  color: #2196f3;
-}
-.contact-wrapper:hover .contact .contact-link-icon {
-  fill: #2196f3;
-}
-.contact:hover .contact-wrapper:hover .contact-link-icon:hover {
-  fill: #2196f3;
-}
-
+.link:hover svg {
+  fill: #2196f3;}
 /*----------main---------*/
 .section {
   width: 100%;
